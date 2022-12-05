@@ -37,5 +37,4 @@ jobs:
     - name: Test with pytest
       run: |
         export PYTHONPATH=src
-        flask
         pytest
